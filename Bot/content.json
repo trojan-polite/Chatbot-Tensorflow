@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "1",
+         "patterns": ["Hi","Is anyone there?", "Hello"],
+         "responses": ["Hi", "Hello", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "2",
+         "patterns": ["Who are you","What is you name","Do you have a name"],
+         "responses": ["Hi, I'm slack", "My name is slack", "I'm Slack"],
+         "context_set": ""
+        },
+        {"tag": "5",
+         "patterns": ["How is the weather today"],
+         "responses": ["It's sunny day"],
+         "context_set": ""
+        },
+        {"tag": "6",
+         "patterns": ["What events are available today"],
+         "responses": ["Live in concent will be at UOM JJ hall"],
+         "context_set": ""
+        },
+        {"tag": "7",
+         "patterns": ["How are you","What's up"],
+         "responses": ["I'm fine, Thanks for asking.","I'm doing well","I'm fine. And you ?"],
+         "context_set": ""
+        },
+        {"tag": "8",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+         "context_set": ""
+        },
+        {"tag": "9",
+         "patterns": ["Thank you"],
+         "responses": ["You are welcome"],
+         "context_set": ""
+        }
+   ]
+}
